@@ -52,14 +52,13 @@ Las operaciones intermedias son aquellas que devuelven un Stream transformada y 
  
 ### Nota: Las Stream no se pueden reutilizar para evitar cualquier tipo de error. 
 Operaciones Relevantes:
-- Bulleted
-- List
 
-⦁	Filter(P) (Operación Intermedia)
-⦁	Map(F) (Operación Intermedia)
-⦁	ForEach(A) (Operación Terminal)
-⦁	Sorted() (Operación Intermedia)
-⦁	Reduce(I, O) (Operación Terminal)
-⦁	Collect(C) (Operación Terminal)
+
+-	Filter(P) (Operación Intermedia)
+-	Map(F) (Operación Intermedia)
+-	ForEach(A) (Operación Terminal)
+-	Sorted() (Operación Intermedia)
+-	Reduce(I, O) (Operación Terminal)
+-	Collect(C) (Operación Terminal)
 
 
