@@ -40,3 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 Las Java Streams son lo que técnicamente, en programación funcional, se llama mónadas, que puesto de manera simple, son un tipo de objeto que contiene una serie de datos y que puede ser combinado en un flujo de procesamiento tipo pipeline: los datos pasan por una serie de procesos que piden transformarlos en cada paso, emitiendo nuevos datos, hasta lograr un dato o serie de datos final.
 
 
+
