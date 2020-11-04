@@ -43,5 +43,20 @@ Las Java Streams son lo que técnicamente, en programación funcional, se llama 
   <img src= Imágenes/1.jpg>
 <br>
 
+Un Stream, entonces, generalmente contiene una serie de elementos, que puede generarse, por ejemplo, a partir de una colección:
+ 
+⦁	Los Stream tienen operaciones intermedias, que devuelven una nueva Stream transformada, que se puede seguir encadenando, pero que solo se ejecutan cuando en el pipeline existe una operación terminal. También tienen operaciones terminales, que cierran el pipeline y devuelven un valor que ya no es una Stream (o no devuelven nada), cerrando el pipeline.
+⦁	Las Stream pueden ser seriales o paralelas. Aquellas seriales se procesaran en un solo hilo, y aquellas paralelas se procesaran en varios hilos, de manera automática, gracias al uso de ForkJoinPool del sistema. 
+Operaciones Intermedias y Terminales:
+Las operaciones intermedias son aquellas que devuelven un Stream transformada y las terminales cierran el pipeline. 
+ 
+### Nota: Las Stream no se pueden reutilizar para evitar cualquier tipo de error. 
+Operaciones Relevantes:
+⦁	Filter(P) (Operación Intermedia)
+⦁	Map(F) (Operación Intermedia)
+⦁	ForEach(A) (Operación Terminal)
+⦁	Sorted() (Operación Intermedia)
+⦁	Reduce(I, O) (Operación Terminal)
+⦁	Collect(C) (Operación Terminal)
 
 
