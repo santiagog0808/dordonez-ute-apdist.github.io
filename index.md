@@ -63,3 +63,4 @@ Operaciones Relevantes:
 -	Collect(C) (Operación Terminal)
 ----------------------------------------------------------------
 Prueba000
+que
