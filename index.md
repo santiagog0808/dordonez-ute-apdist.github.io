@@ -61,5 +61,5 @@ Operaciones Relevantes:
 -	Sorted() (Operación Intermedia)
 -	Reduce(I, O) (Operación Terminal)
 -	Collect(C) (Operación Terminal)
-
-
+----------------------------------------------------------------
+Prueba000
