@@ -73,6 +73,7 @@ https://templatemo.com/tm-529-ramayana
 							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Programa y monitoriza los trabajos MapReduce con TaskTrackers.</li>
 					 	 </ul>
 						<h2><strong>TaskTracker: Servidor esclavo de MapReduce</strong></h2>
+						
                       <p align="justify " style="font-size: 115%">
 						 <ul>
 							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Ejecuta las solicitudes de trabajo de JobTrackers</li>
@@ -81,16 +82,17 @@ https://templatemo.com/tm-529-ramayana
 							 <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Comunicación con el JobTracker: Envíos de la salida, finalizar tareas, actualización de tareas, etc.</li>
 							  
 					 	 </ul>
-			<div class="col-lg-6 col-md-12 col-sm-12  text-center">
-                	<img src="Contenido/GRUPO 1/IMAGENES/FuncionReduce.png" alt="imagen1.png" align="center" width="450px" height="370px">
-                </div>
-						
-						<h2><strong>FUNCION REDUCE</strong></h2>
+			           						
+			 <h2><strong>FUNCION REDUCE</strong></h2>
 			 align="justify">La función Reduce se aplica en paralelo para cada grupo creado por la función Map().La función Reduce se llama una vez para cada clave única de la salida de la función Map. Junto con esta clave, se pasa una lista de todos los valores asociados con la clave para que pueda realizar alguna fusión para producir un conjunto más pequeño de los valores.
 			 Reduce (clave2, lista(valor2)) –> lista(valor2)
 			Cuando se inicia la tarea reduce, la entrada se encuentra dispersa en varios archivos a través de los nodos en las tareas de Map. Los datos obtenidos de la fase Map se ordenan para que los pares clave-valor sean contiguos (fase de ordenación, sort fase), esto hace que la operación Reduce se simplifique ya que el archivo se lee secuencialmente.
      
-					  </p>	
+			</p>
+					<div class="row">			
+					<div class="col-lg-6 col-md-12 col-sm-12  text-center">
+						<img src="Contenido/GRUPO 1/IMAGENES/FuncionReduce.png" align="center" width="450px" height="370px">					
+					</div>				
 						<br></br>				
 						
 					
@@ -99,23 +101,7 @@ https://templatemo.com/tm-529-ramayana
 			
 		</div>
 			</div>
-			<!-- Seccion fin izquierda texto -->
-		
-              <!-- Seccion derecha texto -->
-			<div class="row">			
-					<div class="col-lg-6 col-md-12 col-sm-12  text-center">
-						<img src="Contenido/GRUPO 1/IMAGENES/FuncionReduce.png" align="center" width="450px" height="370px">					
-					</div>				
-							
-				<div class="col-lg-6 col-md-12 col-sm-12 text-justify">	
-                      <p
-			 <h2><strong>FUNCION REDUCE</strong></h2>
-			 align="justify">La función Reduce se aplica en paralelo para cada grupo creado por la función Map().La función Reduce se llama una vez para cada clave única de la salida de la función Map. Junto con esta clave, se pasa una lista de todos los valores asociados con la clave para que pueda realizar alguna fusión para producir un conjunto más pequeño de los valores.
-			 Reduce (clave2, lista(valor2)) –> lista(valor2)
-			Cuando se inicia la tarea reduce, la entrada se encuentra dispersa en varios archivos a través de los nodos en las tareas de Map. Los datos obtenidos de la fase Map se ordenan para que los pares clave-valor sean contiguos (fase de ordenación, sort fase), esto hace que la operación Reduce se simplifique ya que el archivo se lee secuencialmente.
-
-						 
-					  </p>	           
+			           
 
         <div id="sidebar">
 
