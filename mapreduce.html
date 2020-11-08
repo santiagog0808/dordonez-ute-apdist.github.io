@@ -43,74 +43,90 @@ https://templatemo.com/tm-529-ramayana
             </header>
 
            <!-- Start About TITULO -->
-	<div class="about-section-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-md-8 col-sm-12 text-left">
-				  <div class="inner-column">
-						<h1><span>Título: MAPREDUCE</span></h1><br>	
-					</div>
-				</div>
-			</div>
+            <br><br>
+						<h1 align="center"><span><strong>Título: MAPREDUCE</strong></span></h1><br>	
+
 				
 				<!-- Start About -->
 			
 			<!-- Seccion izquierda texto -->
-			<div class="row">
-				<div class="col-lg-6 col-md-12 col-sm-12 text-center">
-					<div class="inner-column">
-						<h1>¿ Qué es MapReduce?	 <span></span></h1>	<br>
+
+						<h2><strong>¿ Qué es MapReduce?	</strong></h2>	<br>
 					  <p align="justify">MapReduce es un framework que proporciona un sistema de procesamiento de datos paralelo y distribuido. Su nombre se debe a las funciones principales que son Map y Reduce, las cuales explicaremos a continuación. MapReduce está pensado para la solución práctica de algunos problemas que pueden ser paralelizados, pero se ha de tener en cuenta que no todos los problemas pueden resolverse eficientemente con MapReduce. 
 						  	     MapReduce está orientado a resolver problemas con conjuntos de datos de gran tamaño, por lo que utiliza el sistema de archivos distribuido HDFS.</p>
-					  <h4><strong>&nbsp</strong></h4>
+					  
 					  <h2><strong>JobTracker: Servidor maestro de MapReduce</strong></h2>
-                      <p align="justify " style="font-size: 115%">
+                      <p align="left" style="font-size: 115%">
 						 <ul>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Capacidad para manejar metadatos de trabajos</li>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Decide sobre la programació </li>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Hay exactamente un JobTracker por cluster.</li>
-							 <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Recibe peticiones de tareas enviadas por el cliente..</li>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Programa y monitoriza los trabajos MapReduce con TaskTrackers.</li>
-					 	 </ul>
+							  <li align="left">&nbsp&nbsp&nbsp&nbsp Capacidad para manejar metadatos de trabajos</li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspDecide sobre la programació </li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspHay exactamente un JobTracker por cluster.</li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspRecibe peticiones de tareas enviadas por el cliente.</li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspPrograma y monitoriza los trabajos MapReduce con TaskTrackers.</li>
+              </ul>
+              <br>
 						<h2><strong>TaskTracker: Servidor esclavo de MapReduce</strong></h2>
-						
                       <p align="justify " style="font-size: 115%">
 						 <ul>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Ejecuta las solicitudes de trabajo de JobTrackers</li>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Obtiene el código que se ejecutará </li>
-							  <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Aplica la configuración especifica del trabajo</li>
-							 <li>&nbsp&nbsp&nbsp&nbsp<strong>•</strong>	Comunicación con el JobTracker: Envíos de la salida, finalizar tareas, actualización de tareas, etc.</li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspEjecuta las solicitudes de trabajo de JobTrackers</li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspObtiene el código que se ejecutará </li>
+							  <li align="left">&nbsp&nbsp&nbsp&nbspAplica la configuración especifica del trabajo</li>
+							 <li align="left">&nbsp&nbsp&nbsp&nbspComunicación con el JobTracker: Envíos de la salida, finalizar tareas, actualización de tareas, etc.</li>
 							  
 					 	 </ul>
-			           						
-			 <h2><strong>FUNCION REDUCE</strong></h2>
-			 align="justify">La función Reduce se aplica en paralelo para cada grupo creado por la función Map().La función Reduce se llama una vez para cada clave única de la salida de la función Map. Junto con esta clave, se pasa una lista de todos los valores asociados con la clave para que pueda realizar alguna fusión para producir un conjunto más pequeño de los valores.
-			 Reduce (clave2, lista(valor2)) –> lista(valor2)
-			Cuando se inicia la tarea reduce, la entrada se encuentra dispersa en varios archivos a través de los nodos en las tareas de Map. Los datos obtenidos de la fase Map se ordenan para que los pares clave-valor sean contiguos (fase de ordenación, sort fase), esto hace que la operación Reduce se simplifique ya que el archivo se lee secuencialmente.
-     
-			</p>
-					<div class="row">			
-					<div class="col-lg-6 col-md-12 col-sm-12  text-center">
-						<img src="Contenido/GRUPO 1/IMAGENES/FuncionReduce.png" align="center" width="450px" height="370px">					
-					</div>				
-						<br></br>				
+					  </p>	
 						
-					
-					</div>
-				</div> 		
-			
-		</div>
-			</div>
-		  
-		<h1>Ejemplo de MapReduce</h1>
-				<iframe width="771" height="538" src="https://www.youtube.com/embed/cW8racyXuvY" frameborder="0" allow="accelerometer; 
-				autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	           
+				
+				<!--separador negro-->
+				
+      <strong><h1>&nbsp</h1></strong>	
+      	
 
+                         <!--fin separador negro-->
+						
+
+    	
+			<!-- Seccion fin izquierda texto -->
+		
+              <!-- Seccion derecha texto -->
+
+
+			 <h2><strong>Funcion Reduce</strong></h2>
+			 <p align="justify">La función Reduce se aplica en paralelo para cada grupo creado por la función Map().La función Reduce se llama una vez para cada clave única de la salida de la función Map. Junto con esta clave, se pasa una lista de todos los valores asociados con la clave para que pueda realizar alguna fusión para producir un conjunto más pequeño de los valores.
+			 Reduce (clave2, lista(valor2)) –> lista(valor2)
+			Cuando se inicia la tarea reduce, la entrada se encuentra dispersa en varios archivos a través de los nodos en las tareas de Map. Los datos obtenidos de la fase Map se ordenan para que los pares clave-valor sean contiguos (fase de ordenación, sort fase), esto hace que la operación Reduce se simplifique ya que el archivo se lee secuencialmente.	 
+            </p>	 </br> 
+            <div><img width="50px" height="400px" src="Contenido/GRUPO 1/IMAGENES/FuncionReduce.png" align="center" ></div>
+            
+
+            
+
+          </br> </br> </br> </br> </br> </br> </br>
+
+          <h2><strong>Funcion Map</strong></h2>
+          <p align="justify"> La función Map recibe como parámetros un par de (clave, valor) y devuelve una lista de pares. Esta función se encarga del mapeo y se aplica a cada elemento de la entrada de datos, por lo que se obtendrá una lista de pares por cada llamada a la función Map. Después se agrupan todos los pares con la misma clave de todas las listas, creando un grupo por cada una de las diferentes claves generadas. No hay requisito de que el tipo de datos para la entrada coincida con la salida y no es necesario que las claves de salida sean únicas.</p>
+
+           <p align="center">Map (clave1, valor1) –> lista (clave2, valor2)</p> 
+            
+            <p>La operación de Map se paraleliza, el conjunto de archivos de entrada se divide en varias tareas llamado FileSplit, el tamaño típico de bloque es de 128MB. Las tareas se distribuyen a los nodos TaskTrackers, y estos a su vez pueden realizar la misma tarea si hiciera falta.</p>	 </br> 
+               <img width="450px" height="400px" src="Contenido/GRUPO 1/IMAGENES/FuncionMap.png" align="center" >
+   
+               
+   
+             </br> </br> </br>          
+
+					<div align="center">
+            <h1>Ejemplo de MapReduce</h1>
+            <iframe width="500" height="400" src="https://www.youtube.com/embed/cW8racyXuvY" frameborder="0" allow="accelerometer; 
+            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div>
+					
+      <!-- Sidebar -->
         <div id="sidebar">
 
           <div class="inner">
- 			
-      <!-- Sidebar -->
+
             <!-- Search Box -->
             <section id="search" class="alt">
               <form method="get" action="#">
